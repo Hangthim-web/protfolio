@@ -1,0 +1,31 @@
+/* .imageContainer
+{
+   width:350px;
+   height:600px;
+   /* object-fit:contain;  */
+/* border-radius:16px; */
+
+.imageContainer img {
+  border-radius: 16px;
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 1s ease-out;
+}
