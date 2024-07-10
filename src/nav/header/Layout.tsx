@@ -18,11 +18,21 @@ const Layout = () => {
                 <ul className="flex">
                   <div className="flex">
                     <li className="transition ease-in-out duration-300 hover:text-slate-300">
-                      <Link to="/">Home</Link>
+                      <Link
+                        to="/"
+                        className="focus-within:underline underline-offset-4"
+                      >
+                        Home
+                      </Link>
                     </li>
 
                     <li className="transition ease-in-out duration-300 hover:text-slate-300">
-                      <Link to="/about">About</Link>
+                      <Link
+                        to="/about"
+                        className="focus-within:underline underline-offset-4"
+                      >
+                        About
+                      </Link>
                     </li>
                   </div>
                   <div>

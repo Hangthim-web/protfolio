@@ -9,6 +9,7 @@ export default {
       },
       fontFamily: {
         roboto: ["primary-font", "sans-serif"],
+        robotoItalic: ["roboto-italic", "sans-serif"],
         lobster: ["contact-page-font", "sans-serif"],
       },
     },

@@ -16,3 +16,7 @@ body {
   font-family: "contact-page-font";
   src: url("/fonts/Lobster-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "roboto-italic";
+  src: url("/fonts/Roboto-Italic.ttf") format("truetype");
+}
