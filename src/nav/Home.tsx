@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import { Link } from "react-router-dom";
 import my_photo from "../static/images/personal_photo.jpg";

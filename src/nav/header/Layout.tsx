@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import "../../style/navbar.css";
-import React from "react";
+
 const Layout = () => {
   return (
     <>

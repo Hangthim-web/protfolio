@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
-import React from "react";
+
 
 const Contact = () => {
   return (

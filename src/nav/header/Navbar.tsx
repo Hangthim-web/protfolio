@@ -3,7 +3,7 @@ import Home from "../Home";
 import About from "../About";
 import Layout from "./Layout";
 import Contact from "../Contact";
-import React from "react";
+
 
 const Navbar = () => {
   return (
